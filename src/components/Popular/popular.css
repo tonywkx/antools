@@ -1,0 +1,168 @@
+.popular{
+    margin: 0 auto;
+    height: 1109px;
+    width: 1224px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.popular-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 147px;
+}
+
+.popular-title h3 {
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    text-align: center;
+}
+
+.popular-title p{
+    color: white;
+    opacity: 55%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.popular .load-button{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 184px;
+    height: 64px;
+    border-radius: 8px;
+    color: #FF6E30;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+}
+
+.popular-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1224px;
+}
+
+.popular-cards__card{
+    height: 294px;
+    width: 392px;
+    border-radius: 8px;
+}
+
+.popular-cards__card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    opacity: 55%;
+    background: none;
+}
+
+.hover{
+    background: url('./assets/MaskGroup.svg');
+    background-color: #283036;
+   
+    box-shadow: 1px, 4px, 4px, black;
+
+}
+
+.popular-cards__card-container{
+    width: 326px;
+    height: 228px;
+    margin: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+
+.card-title_title{
+    background: none;
+}
+
+.card-title_title h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    opacity: 78%;
+    margin: 0;
+    background: none;
+}
+
+.card-title_title span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFA537;
+    opacity: 55%;
+    background: none;
+}
+
+.cards-icons{
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+
+.cards-icons .checked{
+    opacity: 100;
+    background-color: #FF6E30;
+    
+}
+
+.cards-icons__svg{
+    height: 42px;
+    width: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none;
+}
+
+.cards-icons button{
+    border: 0;
+    color: white;
+    opacity: 55%;
+    font-weight: 600;
+    font-size: 16px;
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+}
+
+
+.card-title svg{
+    height: 64px;
+    width: 64px;
+    margin-right: 30px;
+    background: none;
+}
+
+.cards-icons__svg svg{
+    width: 42px;
+    height: 42px;
+    background: none;
+    
+}

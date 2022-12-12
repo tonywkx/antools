@@ -6,4 +6,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
+h3,
+p{
+  margin: 0;
+}
+
 
