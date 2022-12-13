@@ -24,8 +24,8 @@ export default function Popular() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='cards-icons'>
                         <div className='cards-icons__svg' >
-                        {cardLike}
-                        {cardLoad}
+                        <div className='cards-icons__svg__wrap'>{cardLike}</div>
+                        <div className='cards-icons__svg__wrap'>{cardLoad}</div>
                         </div>
                         <button>Visit</button>
                     </div>
@@ -42,9 +42,9 @@ export default function Popular() {
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='cards-icons'>
-                        <div className='cards-icons__svg' >
-                        {redLike}
-                        {cardLoad}
+                        <div className='cards-icons__svg'>
+                        <div className='like-hover'>{redLike}</div>
+                        <div className='cards-icons__svg__wrap'>{cardLoad}</div>
                         </div>
                         <button className='checked'>Visit</button>
                     </div>
@@ -62,8 +62,8 @@ export default function Popular() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='cards-icons'>
                         <div className='cards-icons__svg' >
-                        {cardLike}
-                        {cardLoad}
+                        <div className='cards-icons__svg__wrap'>{cardLike}</div>
+                        <div className='cards-icons__svg__wrap'>{cardLoad}</div>
                         </div>
                         <button>Visit</button>
                     </div>
@@ -83,8 +83,8 @@ export default function Popular() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='cards-icons'>
                         <div className='cards-icons__svg' >
-                        {cardLike}
-                        {cardLoad}
+                        <div className='cards-icons__svg__wrap'>{cardLike}</div>
+                        <div className='cards-icons__svg__wrap'>{cardLoad}</div>
                         </div>
                         <button>Visit</button>
                     </div>
@@ -102,8 +102,8 @@ export default function Popular() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='cards-icons'>
                         <div className='cards-icons__svg' >
-                        {cardLike}
-                        {cardLoad}
+                        <div className='cards-icons__svg__wrap'>{cardLike}</div>
+                        <div className='cards-icons__svg__wrap'>{cardLoad}</div>
                         </div>
                         <button>Visit</button>
                     </div>
@@ -121,8 +121,8 @@ export default function Popular() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className='cards-icons'>
                         <div className='cards-icons__svg' >
-                        {cardLike}
-                        {cardLoad}
+                        <div className='cards-icons__svg__wrap'>{cardLike}</div>
+                        <div className='cards-icons__svg__wrap'>{cardLoad}</div>
                         </div>
                         <button>Visit</button>
                     </div>
