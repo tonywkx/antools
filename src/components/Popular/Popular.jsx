@@ -1,6 +1,6 @@
 import React from 'react'
 import './popular.css'
-import { cardLike, cardLoad, figma, invision, notion, redLike, sketch, slack, vscode } from '../../svg'
+import { cardLike, cardLoad, figma, invision, notion, redLike, sketch, slack, vscode } from './assets/svgPop'
 
 export default function Popular() {
   return (

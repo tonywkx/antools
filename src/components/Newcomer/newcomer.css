@@ -1,64 +1,78 @@
-.popular{
-    margin: 0 auto;
-    height: 1109px;
+.newcomer{
     width: 1224px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 638px;
+    margin: 0 auto;
     margin-bottom: 200px;
-}
-
-.popular-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 147px;
-}
-
-.popular-title h3 {
-    color: white;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 62px;
-    text-align: center;
-}
-
-.popular-title p{
-    color: white;
-    opacity: 55%;
-    text-align: center;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.popular .load-button{
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    width: 184px;
-    height: 64px;
-    border-radius: 8px;
-    color: #FF6E30;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    background-color: transparent;
-    outline: none;
-}
-
-.popular-cards{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1224px;
 }
 
-.popular-cards__card{
-    height: 294px;
-    width: 392px;
+.newcomer-title{
+    width: 427px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.newcomer-title h3{
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 500;
+    color: white;
+    opacity: 90%;
+    background: transparent;
+}
+
+.newcomer-title p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    opacity: 55%;
+    background: transparent;
+}
+
+.newcomer-title button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FF6E30;
+    width: 198px;
+    height: 58px;
+}
+
+
+.newcomer-cards{
+    width: 600px;
+    height: 638px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    
+}
+
+
+
+
+/*card*/
+
+
+.newcomer-cards__card{
+    height: 284px;
+    width: 288px;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .popular-cards__card p {
@@ -93,10 +107,10 @@
     justify-self: center;
 }
 
-.popular-cards__card-container{
-    width: 326px;
+.newcomer-cards__card-container{
+    width: 245px;
     height: 228px;
-    margin: 33px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -106,6 +120,15 @@
 .card-title{
     display: flex;
     flex-direction: row;
+    background: none;
+}
+
+.new-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    opacity: 55%;
     background: none;
 }
 
@@ -190,4 +213,11 @@
     justify-content: center;
     border-radius: 8px;
     background: none;   
+}
+
+.active{
+    background: url('../Newcomer/assets/MaskGroupNew.svg');
+    background-color: #283036;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: translateY(-20px);
 }
