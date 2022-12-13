@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.person{
+    width: 1224px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person-slider{
+    width: 1224px;
+    height: 492px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person-slider__main{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 849px;
+}
+
+.person-slider__main__img{
+    background-image: url('./assets/perrs-img.png');
+    width: 399px;
+    height: 492px;
+}
+
+.person-slider__main__txt{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    opacity: 78%;
+    width: 393px;
+    height: 180px;
+    z-index: 100;
+}
+
+.person-slider__main svg{
+    position: absolute;
+    left: -55px;
+    top: -55px;
+    z-index: 2;
+    background: none;
+}
+
+.person-indication{
+    width: 168px;
+    height: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+.person-indication__item{
+    width: 44px;
+    height: 6px;
+    background: #283036;
+    border-radius: 4px;
+}
+
+.orange{
+    background-color: #FF6E30;
+    height: 8px;
+}
