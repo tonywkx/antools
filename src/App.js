@@ -1,4 +1,5 @@
 import './App.css';
+import Feedback from './components/Feedback/Feedback';
 import Main from './components/Main/Main';
 import Nav from './components/Navigation/Nav';
 import Newcomer from './components/Newcomer/Newcomer';
@@ -15,6 +16,7 @@ function App() {
       <Trusted/>
       <Newcomer/>
       <Person/>
+      <Feedback/>
     </div>
     
   );
