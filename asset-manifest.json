@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/antools/static/css/main.e987a4f5.css",
+    "main.js": "/antools/static/js/main.dad6297c.js",
+    "static/media/perrs-img.png": "/antools/static/media/perrs-img.5989866fcac2d1507ccf.png",
+    "static/media/MaskGroupNew.svg": "/antools/static/media/MaskGroupNew.ff33d83215d53d95c064.svg",
+    "static/media/MaskGroup.svg": "/antools/static/media/MaskGroup.337a33d0321665b354f9.svg",
+    "index.html": "/antools/index.html",
+    "main.e987a4f5.css.map": "/antools/static/css/main.e987a4f5.css.map",
+    "main.dad6297c.js.map": "/antools/static/js/main.dad6297c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e987a4f5.css",
+    "static/js/main.dad6297c.js"
+  ]
+}
